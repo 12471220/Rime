@@ -1,0 +1,9 @@
+patch:
+  style/text_orientation: horizontal   # 控制文字方向
+  style/candidate_list_layout: linear   # 控制候选词横向排列
+  style/corner_radius: 0
+  style/font_point: 14
+  style/border_width: 1
+  style/border_height: 1
+
+
