@@ -1,13 +1,16 @@
 # override default.yaml
 patch:
   # 1. 修改候选词每页显示数量为 5 个
-  "menu/page_size": 5
+  "menu/page_size": 4
 
   # 2. 修改翻页键为逗号(,)和句号(.) 
   key_binder/bindings:
     - { when: paging, accept: comma, send: Page_Up }
     - { when: paging, accept: period, send: Page_Down }
+    - { when: always, accept: "Control+comma", toggle: ascii_punct }
+    - { when: always, accept: "Shift+space", toggle: full_shape }
 
   schema_list:
     - schema: wubi86
     
+  switcher/caption: [menu]
