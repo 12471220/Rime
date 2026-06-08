@@ -10,7 +10,7 @@ patch:
 
   preset_color_schemes/+:
     scs_dark:
-      name: scs_dark
+      name: sc's dark color scheme
       author: sc
       back_color: 0x252a2e    # 候选条背景色，24位色值，16进制，BGR顺序
       border_color: 0x444444    # 边框色

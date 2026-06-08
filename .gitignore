@@ -1,7 +1,7 @@
 *
 !.gitignore
+!README.md
 !plum/**
 !default.custom.yaml
 !squirrel.custom.yaml
 !wubi86.custom.yaml
-!README.md
