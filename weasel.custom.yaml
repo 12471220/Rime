@@ -1,0 +1,14 @@
+patch:
+  style/horizontal: true   # 控制文字方向
+  style/candidate_list_layout: linear   # 控制候选词横向排列
+  style/font_point: 11
+  font_face: Noto Sans TC
+  label_font_face: Noto Sans TC
+  comment_font_face: Noto Sans TC
+  
+  style/layout/border_width: 1
+  style/layout/round_corner: 0
+  style/layout/corner_radius: 0
+  style/layout/margin_x: 0
+  style/layout/margin_y: 0
+  style/layout/min_width: 0
