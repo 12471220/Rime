@@ -1,10 +1,8 @@
 patch:
-  style/horizontal: true   # 控制文字方向
-  style/candidate_list_layout: linear   # 控制候选词横向排列
-  style/font_point: 11
-  font_face: Noto Sans TC
-  label_font_face: Noto Sans TC
-  comment_font_face: Noto Sans TC
+  show_notifications_time: 400
+  style/horizontal: true                        # 控制文字方向
+  style/candidate_list_layout: linear           # 控制候选词横向排列
+  style/inline_preedit: true
   
   style/layout/border_width: 1
   style/layout/round_corner: 0
@@ -12,3 +10,30 @@ patch:
   style/layout/margin_x: 0
   style/layout/margin_y: 0
   style/layout/min_width: 0
+  
+  style/color_scheme: scs_dark
+
+  preset_color_schemes/+:
+    scs_dark:
+      name: sc's dark color scheme
+      candidate_format: "[label]. [candidate] [comment]"
+      author: sc
+      back_color: 0x1a1a1a                          # 整体背景色，24位色值，16进制，BGR顺序
+      border_color: 0x555555                        # 边框色
+      text_color: 0xffffff                          # 编码文字颜色
+      hilited_back_color: 0xff4700                  # 第一候选项背景背景色
+      hilited_candidate_text_color: 0xffffff        # 高亮候选项文字颜色
+      hilited_candidate_label_color: 0xcccccc       # 高亮候选项编号颜色
+      hilited_comment_text_color: 0x999999          # 注解文字高亮
+      hilited_corner_radius: 0                      # 高亮圆角
+      # hilited_text_color: 0x999999                # 高亮拼音 (需要开启内嵌编码)
+      candidate_text_color: 0xcccccc                # 非高亮候选项文字颜色
+      label_color: 0xaaaaaa                         # 非高亮候选项编号颜色
+      comment_text_color: 0x888888                  # 五笔提示文字颜色
+      inline_preedit: true                          # 单行显示，false双行显示
+      font_point: 11                                # 字体大小
+      label_font_point: 10                          # 候选编号大小
+      corner_radius: 0                              # 候选条圆角
+      border_height: 1                              # 窗口上下高度
+      border_width: 1                               # 窗口左右宽度
+      border_color_width: 0                         # 输入条边框宽度
