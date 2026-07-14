@@ -14,3 +14,4 @@ patch:
   ascii_composer/switch_key/Shift_R: commit_code
 
   reverse_lookup/tips: （拼）
+  translator/dictionary: wubi86.extended

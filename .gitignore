@@ -6,3 +6,8 @@
 !squirrel.custom.yaml
 !weasel.custom.yaml
 !wubi86.custom.yaml
+!wubi86.custom.dict.yaml
+!z.computer_about.dict.yaml
+!z.machine_learning.dict.yaml
+!z.development.dict.yaml
+!wubi86.extended.dict.yaml
